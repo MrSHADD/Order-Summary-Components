@@ -1,0 +1,127 @@
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family: Red Hat Display;
+    background-color: hsl(225, 100%, 94%)
+}
+
+.div--main{
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 620px;
+}
+
+hero{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.hero--img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    font-size: 27px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    font-weight: 900;
+    
+}
+
+.change{
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    margin: 35px;
+    margin-left: 90px;
+}
+
+.change:hover{
+    text-decoration: none;
+}
+
+p{
+    font-size: 16px;
+    padding: 0px 70px;
+    color: hsl(224, 23%, 55%);
+}
+
+plan{
+    display: flex;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    margin: auto;
+    height: 90px;
+}
+
+.music--img{
+    margin: 22px;
+}
+
+.pricee{
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+pay{
+    display: block;
+    text-align: center;
+}
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    width: 360px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 30px;
+    box-shadow: 0 18px 40px -16px blue;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.cancel{
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+    text-decoration-line: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .div--main {
+      width: 360px; 
+      margin: auto;
+    }
+    .hero--img{
+      width: 360px;
+    }
+
+    button{
+        width: 300px;
+    }
+
+    plan{
+        width: 83%;
+    }
+    .change{
+        margin-left: 25px;
+    }
+    
+    }
